@@ -20,5 +20,10 @@
   <%= @player.avatar_url %>
 </p>
 
+<% if @player.scores.any? %>
+	<p> Inbounds Registered: <%= @player.scores.count %> </p>
+	<p> Money: <%= render @scores %> </p>
+<% end %>
+
 <%= link_to 'Edit', edit_player_path(@player) %> |
 <%= link_to 'Back', players_path %>
