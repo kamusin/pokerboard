@@ -8,3 +8,4 @@ class User < ActiveRecord::Base
   validates :password, length: { minimum: 8}
   has_secure_password
 end
+
