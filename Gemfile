@@ -31,6 +31,9 @@ gem 'bcrypt'
 
 gem 'bootstrap-sass'
 
+#paginacion 
+gem 'will_paginate'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
