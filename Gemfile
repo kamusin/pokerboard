@@ -33,7 +33,10 @@ gem 'bootstrap-sass'
 
 #paginacion 
 gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
+#fake users
+gem 'faker'
 # Use unicorn as the app server
 # gem 'unicorn'
 
