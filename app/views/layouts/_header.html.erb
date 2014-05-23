@@ -1,9 +1,7 @@
-<header class="navbar navbar-fixed-top ">
-  <div class="navbar-inner">
-    <div class="container">
-      <%= link_to "sample app", root_path, id: "logo" %>
-      <nav>
-        <ul class="nav pull-right">
+<header>
+      <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "Help", help_path %></li>
           <% if signed_in? %>
@@ -26,8 +24,6 @@
             <li><%= link_to "Sign in", signin_path %></li>
           <% end %>
         </ul>
+	</div>
       </nav>
-    </div>
-  </div>
 </header>
-
